@@ -1,1 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  font-size: 1em;
+}
+.p {
+  text-align: center;
+  margin: 1em;
+  padding: 3em;
+}
+.h {
+  margin: 1em;
+  padding: 3em;
+  text-align: center;
+  font-size: 1em;
+}
+.h1 h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1em;
+}
+#h1 {
+  color: #030303;
+}
+h1 {
+  color: blueviolet;
+  font-weight: bold;
+  text-align: center;
+}
+.ol {
+  margin: 1em;
+  padding: 3em;
+  text-align: center;
+}
+.ol li {
+  margin: 1em;
+  list-style-type: none;
+}
+.ul {
+  margin: 1em;
+  padding: 3em;
+  text-align: center;
+  text-decoration: none;
+}
+.ul li {
+  margin: 1em;
+  text-align: center;
+  list-style-type: none;
+}
+.img {
+  margin: 1em;
+  padding: 3em;
+  text-align: center;
+}
+.img > img {
+  width: 150px;
+  height: auto;
+}
+.a {
+  padding: 3em;
+  text-align: center;
+  font-size: 1em;
+}
+.a a:hover {
+  color: #030303;
+}
+.a a {
+  text-decoration: none;
+  color: blue;
+}
+.btn {
+  margin: 3em;
+  padding: 3em;
+  text-align: center;
+}
+.btn button {
+  border: none;
+  color: #ffffff;
+  background-color: blueviolet;
+  padding: 1em;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+}
+.btn button:hover {
+  background-color: aqua;
+  color: #030303;
+  cursor: pointer;
+}
+#btn {
+  display: none;
+}
+.table {
+  padding: 3em;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 1em;
+}
+.form {
+  margin: 1em;
+  padding: 3em;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.flex > div {
+  background-color: lightgreen;
+  padding: 3em;
+  margin: 3em;
+  width: 200px;
+}
+.grid {
+  display: grid;
+  grid-column-gap: 100px;
+  grid-template-columns: 3em 3em auto;
+}
+.grid > div {
+  background-color: lightpink;
+  padding: 3em;
+  margin: 3em;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  body {
+    background-color: #ffffff;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: lightcyan;
+  }
+}
 
